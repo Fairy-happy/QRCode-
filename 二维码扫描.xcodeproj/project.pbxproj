@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9A587F1C3A22040055EF06 /* CreatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A587D1C3A22040055EF06 /* CreatViewController.m */; };
+		2C9A58801C3A22040055EF06 /* CreatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9A587E1C3A22040055EF06 /* CreatViewController.xib */; };
 		2CF615BA1C321C5D00DD31B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615B91C321C5D00DD31B2 /* main.m */; };
 		2CF615BD1C321C5D00DD31B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615BC1C321C5D00DD31B2 /* AppDelegate.m */; };
 		2CF615C01C321C5D00DD31B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615BF1C321C5D00DD31B2 /* ViewController.m */; };
@@ -35,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C9A587C1C3A22040055EF06 /* CreatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatViewController.h; sourceTree = "<group>"; };
+		2C9A587D1C3A22040055EF06 /* CreatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatViewController.m; sourceTree = "<group>"; };
+		2C9A587E1C3A22040055EF06 /* CreatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatViewController.xib; sourceTree = "<group>"; };
+		2C9A58811C3A54BE0055EF06 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2C9A58821C3A54BF0055EF06 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2CF615B51C321C5D00DD31B2 /* 二维码扫描.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码扫描.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF615B91C321C5D00DD31B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CF615BB1C321C5D00DD31B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +112,9 @@
 				2CF615BC1C321C5D00DD31B2 /* AppDelegate.m */,
 				2CF615BE1C321C5D00DD31B2 /* ViewController.h */,
 				2CF615BF1C321C5D00DD31B2 /* ViewController.m */,
+				2C9A587C1C3A22040055EF06 /* CreatViewController.h */,
+				2C9A587D1C3A22040055EF06 /* CreatViewController.m */,
+				2C9A587E1C3A22040055EF06 /* CreatViewController.xib */,
 				2CF615C11C321C5D00DD31B2 /* Main.storyboard */,
 				2CF615C41C321C5D00DD31B2 /* Assets.xcassets */,
 				2CF615C61C321C5D00DD31B2 /* LaunchScreen.storyboard */,
@@ -246,6 +256,7 @@
 			files = (
 				2CF615C81C321C5D00DD31B2 /* LaunchScreen.storyboard in Resources */,
 				2CF615C51C321C5D00DD31B2 /* Assets.xcassets in Resources */,
+				2C9A58801C3A22040055EF06 /* CreatViewController.xib in Resources */,
 				2CF615C31C321C5D00DD31B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +284,7 @@
 			files = (
 				2CF615C01C321C5D00DD31B2 /* ViewController.m in Sources */,
 				2CF615BD1C321C5D00DD31B2 /* AppDelegate.m in Sources */,
+				2C9A587F1C3A22040055EF06 /* CreatViewController.m in Sources */,
 				2CF615BA1C321C5D00DD31B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +325,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2CF615C21C321C5D00DD31B2 /* Base */,
+				2C9A58811C3A54BE0055EF06 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -321,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2CF615C71C321C5D00DD31B2 /* Base */,
+				2C9A58821C3A54BF0055EF06 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

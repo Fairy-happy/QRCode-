@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "CreatViewController.h"
 
 #define Width [UIScreen mainScreen].bounds.size.width
 #define Hight [UIScreen mainScreen].bounds.size.height
@@ -249,7 +250,7 @@
         UIImagePickerController *controller = [[UIImagePickerController alloc]init];
         controller.delegate = self;
         //设置图片来源
-        controller.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+        controller.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         
         //设置转场动画
         controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
@@ -311,8 +312,9 @@
 -(void)myCode{
     
     NSLog(@"我的二维码");
-//    ViewController2*vc=[[ViewController2 alloc]init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    CreatViewController*vc=[[CreatViewController alloc]init];
+    //[self.navigationController pushViewController:vc animated:YES];
+    [self presentViewController:vc animated:YES completion:nil];
     
     
 }
@@ -386,7 +388,8 @@
 #pragma mark-> 返回
 - (void)disMiss
 {
-    [self.navigationController popViewControllerAnimated:YES];
+     exit(0);
+    //[self.navigationController popViewControllerAnimated:YES];
 }
 
 //#pragma mark - UIAlertViewDelegate
